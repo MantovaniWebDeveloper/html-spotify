@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.contenitoreGenerale {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 90vh;
+  width: 100vW;
+}
+aside {
+  background-color: blue;
+  width: 10vW;
+  height: 90vh;
+
+}
+#contenitoreMusica {
+  height: 90vh;
+  width: 90vW;
+  background-color: red;
+  overflow-y: scroll;
+}
+#contenitoreLettore {
+  height: 10vh;
+  width: 100vW;
+  background-color: yellow;
+}
