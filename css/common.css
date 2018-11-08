@@ -1,0 +1,96 @@
+/*COLORI SFONDO*/
+.bgBianco {
+  background-color: #fff;
+}
+.bgBluchiaro {
+  background-color: #0069ff;
+}
+.bgGrigio {
+  background-color: #f3f5f9;
+}
+.bgNeroFooter {
+  background-color: #010e28;
+}
+
+/*COLORI TESTO */
+.testoBianco {
+  color: #fff;
+}
+.testoBlu {
+  color: #303fd9;
+}
+.testoBluChiaro {
+  color: #0069ff;
+}
+.testoBluOpaco {
+  color: rgba(3,27,78,.7);
+}
+.testoGrigio {
+  color: grey;
+}
+.testoGrigioChiaro {
+  color: lightgrey;
+}
+/*BUTTON*/
+.btnForm {
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+.btnSignUp {
+  border: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 17px;
+   box-shadow: 0 0 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
+}
+/*MARGINI*/
+.mt15 {
+  margin-top: 15px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt45 {
+  margin-top: 45px;
+}
+.mt60 {
+  margin-top: 60px;
+}
+.mt100 {
+  margin-top: 100px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb100 {
+  margin-bottom: 100px;
+}
+.mb200 {
+  margin-bottom: 200px;
+}
+.mr15 {
+  margin-right: 15px;
+}
+/*PADDING*/
+.pt15 {
+  padding-top: 15px;
+}
+.pt30 {
+  padding-top: 30px;
+}
+.pt50 {
+  padding-top: 50px;
+}
+.pb30 {
+  padding-bottom: 30px;
+}
+
+/**********/
+/*BORDER*/
+.bradius5 {
+  border-radius: 5px;
+}

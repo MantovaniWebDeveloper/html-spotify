@@ -145,13 +145,10 @@ nav div h4 {
   }
 }
 /*****************/
-#contenitoreSelezioneMusica .contenutiMusicali {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: red;
-
+#contenitoreSelezioneMusica h2 {
+  color: #fff;
 }
+
 /*****************FINE CONTENITORE MUSICALE***********************/
 #contenitoreLettore {
   height: 10vh;
