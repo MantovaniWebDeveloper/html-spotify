@@ -87,7 +87,7 @@ nav div h4 {
   margin-right: 10px;
   font-size: 15px;
 }
-#infoProfilo .profiloAttivo {
+.profiloAttivo {
   color: white;
 }
 .lineaBianca {
@@ -192,7 +192,39 @@ nav div h4 {
 }
 /*****************FINE CONTENITORE MUSICALE***********************/
 #contenitoreLettore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   height: 10vh;
   width: 100vW;
   background: linear-gradient( #2f393a , #080a07);
+}
+#controlliSX {
+  display: flex;
+  margin-left: 10px;
+}
+#controlliSX img {
+  padding: 5px;
+  margin-right: 10px;
+}
+#controlliSX div {
+  align-self: flex-end;
+}
+#controlliSX .profiloAttivo:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+#controlliSX small a {
+  color: grey;
+}
+#controlliSX small a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+#add {
+  font-size: 20px;
+  margin: 15px 0px 10px 10px;
+}
+#add i a:hover {
+  color: white;
 }
