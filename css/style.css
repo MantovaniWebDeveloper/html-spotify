@@ -228,3 +228,12 @@ nav div h4 {
 #add i a:hover {
   color: white;
 }
+#controlloTop {
+  display: flex;
+}
+#controlloTop div {
+  margin-right: 40px;
+  margin-left: 40px;
+
+  font-size: 20px;
+}
