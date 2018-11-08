@@ -148,7 +148,18 @@ nav div h4 {
 #contenitoreSelezioneMusica h2 {
   color: #fff;
 }
-
+.contenitoreSchedeMusicale {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  .scheda {
+    margin-right: 10px;
+    width: 20%;
+  }
+  .scheda p{
+    font-size: 10px;
+  }
 /*****************FINE CONTENITORE MUSICALE***********************/
 #contenitoreLettore {
   height: 10vh;
