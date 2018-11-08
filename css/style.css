@@ -225,8 +225,12 @@ nav div h4 {
   font-size: 20px;
   margin: 15px 0px 10px 10px;
 }
-#add i a:hover {
+#add  a i:hover {
   color: white;
+}
+.controlloCentrale {
+  display: flex;
+  flex-direction: column;
 }
 #controlloTop {
   display: flex;
@@ -234,6 +238,20 @@ nav div h4 {
 #controlloTop div {
   margin-right: 40px;
   margin-left: 40px;
-
   font-size: 20px;
+}
+#controlloTop div a i:hover {
+  color: #fff;
+}
+#controlloBottom input::before {
+  content: "4:16";
+  color: #fff;
+  position: relative;
+  right: 30px;
+}
+#controlloBottom input::after {
+  content: "6:34";
+  color: #fff;
+  position: relative;
+  left: 30px;
 }
