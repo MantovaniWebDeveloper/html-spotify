@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Signika', sans-serif;
+  color: grey;
 }
 .contenitoreGenerale {
   display: flex;
@@ -32,6 +33,32 @@ nav div a {
 nav div a:hover {
   color: #fff;
   text-decoration: none;
+}
+nav div .active {
+  color: green;
+}
+nav div h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+#contenitoreAscoltatiRecente {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 15px;
+}
+#contenitoreAscoltatiRecente h4{
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.contenutoAscoltato {
+  margin-top: 15px;
+  margin-bottom: 15px
+}
+.contenutoAscoltato small {
+  display: block;
+}
+.contenutoAscoltato small:last-child {
+  text-transform: uppercase;
 }
 #contenitoreMusica {
   height: 90vh;
