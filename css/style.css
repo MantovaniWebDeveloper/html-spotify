@@ -13,7 +13,7 @@
 }
 aside {
   background-color: #000;
-  width: 10vW;
+  width: 15vW;
   height: 90vh;
 }
 .divideAside {
@@ -97,7 +97,7 @@ nav div h4 {
 }
 #contenitoreMusica {
   height: 90vh;
-  width: 90vW;
+  width: 85vW;
   background: linear-gradient( #2f393a , #080a07);
   overflow-y: scroll;
 }
@@ -105,4 +105,14 @@ nav div h4 {
   height: 10vh;
   width: 100vW;
   background: linear-gradient( #2f393a , #080a07);
+}
+
+/*MEDIA QUERY ASIDE*/
+@media screen and (max-width: 770px) {
+  aside {
+    display: none;
+  }
+  #contenitoreMusica{
+    width: 100vW;
+  }
 }
