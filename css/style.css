@@ -131,6 +131,9 @@ nav div h4 {
   }
 }
 @media screen and (max-width: 500px) {
+  aside #logo {
+    display: block;
+  }
   #contentenitoreNavMusica {
     display: none;
   }
@@ -140,6 +143,14 @@ nav div h4 {
     float: right;
     font-size: 30px;
   }
+}
+/*****************/
+#contenitoreSelezioneMusica .contenutiMusicali {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: red;
+
 }
 /*****************FINE CONTENITORE MUSICALE***********************/
 #contenitoreLettore {
