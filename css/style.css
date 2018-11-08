@@ -118,6 +118,9 @@ nav div h4 {
 .trattinoAttivato {
   border-bottom: 2px solid green ; /*da rivedere*/
 }
+#hamburgerMenu {
+  display: none;
+}
 /*MEDIA QUERY contentenitoreNavMusica*/
 @media screen and (max-width: 770px) {
   #contentenitoreNavMusica h4 {
@@ -128,7 +131,15 @@ nav div h4 {
   }
 }
 @media screen and (max-width: 500px) {
-
+  #contentenitoreNavMusica {
+    display: none;
+  }
+  #hamburgerMenu {
+    display: block;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+  }
 }
 /*****************FINE CONTENITORE MUSICALE***********************/
 #contenitoreLettore {
